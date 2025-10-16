@@ -4,6 +4,42 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Venda seu Carro!</title>
+    <link rel="stylesheet" href="css/styles.css" />
   </head>
-  <body></body>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h3>Cadastre seu veiculo e venda mais rapido!</h3>
+      </div>
+      <form>
+        <div class="form-container">
+          <div class="form-header">
+            <p>Formulario</p>
+          </div>
+          <div class="form-body">
+            <h1 class="form-title">Venda facil seu carro!</h1>
+            <p>
+              Descreva as caracteristicas e marque os opcionais do seu veiculo
+            </p>
+            <div class="box-input">
+              <label for="title"
+                >Titulo do anuncio <span class="required-field">*</span></label
+              >
+              <input
+                type="text"
+                name="title"
+                id="title"
+                class="block"
+                placeholder="Adicione o titulo do seu anuncio"
+                minlength="1"
+                maxlength="50"
+                required
+              />
+            </div>
+            <input type="submit" value="Enviar" />
+          </div>
+        </div>
+      </form>
+    </div>
+  </body>
 </html>
